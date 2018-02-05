@@ -367,6 +367,7 @@ try:
 				print(myFunctionEcho)
 				echo = 0
 				print("Listening to Rooms:")
+				print("Diese Raeume koennen ausgewaehlt werden:")
 				print(myRooms)
 			if recognized == 1:
 				#pause recognition and cahnge the models
@@ -392,6 +393,7 @@ try:
 				print(myRoomEcho)
 				echo = 0
 				print("Listening to devices")
+				print("Diese Devices koennen ausgewaehlt werden:")
 				print(myDevices)
 			if recognized == 1:
 				#pause recognition and cahnge the models
@@ -417,6 +419,7 @@ try:
 				print(myDeviceEcho)
 				echo = 0
 				print("Listening to actions")
+				print("Diese Funktionen koennen ausgewaehlt werden:")
 				print(myFunctions)
 			if recognized == 1:
 				#pause recognition and cahnge the models
