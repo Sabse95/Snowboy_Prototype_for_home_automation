@@ -112,3 +112,25 @@ configuration:
               - keyword: resources/ausschalten.pmdl
                 actions:
                   echo: Licht ausgeschaltet!
+- name: Schlafzimmer
+  keywords:
+  - keyword: resources/Schlafzimmer.pmdl
+    actions:
+      echo: selected Schlafzimmer
+      sublevel:
+      - name: Licht
+        keywords:
+        - keyword: resources/Deckenlicht.pmdl
+          actions:
+            echo: Schlafzimmer- Deckenlicht selected!
+            sublevel:
+            - name: einschalten
+              keywords:
+              - keyword: resources/einschalten.pmdl
+                actions:
+                  echo: Deckenlicht eingeschaltet!
+            - name: ausschalten
+              keywords:
+              - keyword: resources/ausschalten.pmdl
+                actions:
+                  echo: Deckenlicht ausgeschaltet!
